@@ -38,7 +38,7 @@ public class CarInventoryTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testAddCar_DuplicateModel() {
-        inventory.addCar(new Car("Focus", "Ford", 21000.0)); // Duplicate model
+        inventory.addCar(new Car("Focus", "Ford", 21000.0)); 
     }
 
     @Test
